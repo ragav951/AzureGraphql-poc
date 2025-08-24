@@ -2,7 +2,7 @@ trigger:
 - main   # or master branch, depending on repo
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default
 
 steps:
 - script: echo "🚀 Hello from my PoC DevOps Pipeline!"
